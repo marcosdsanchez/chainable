@@ -16,5 +16,5 @@ PHP 5.6+
 Install via [composer](https://getcomposer.org/):
 
 ```sh
-php composer.phar require marcosdsanchez/chainable:~0.1.0
+php composer.phar require marcosdsanchez/chainable:~0.1.1
 ```
