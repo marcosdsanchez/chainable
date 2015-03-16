@@ -17,6 +17,8 @@ abstract class AbstractResponse implements ChainableInterface
      */
     public function process(... $data)
     {
-        return new ChainResult($this->getValue(), reset(reset($data)) === $this->getValue());
+        $value = reset($data);
+
+        return new ChainResult($this->getValue(), reset($value) === $this->getValue());
     }
 }
